@@ -278,11 +278,22 @@
             android:layout_height="100dp"
             android:layout_row="4"
             android:layout_column="2"
-            android:layout_columnSpan="2"
             android:layout_columnWeight="1"
             android:layout_marginLeft="3dp"
             android:backgroundTint="@color/yellow"
             android:text="="
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGst"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="3dp"
+            android:backgroundTint="@color/yellow"
+            android:text="Gst"
             android:textColor="@color/white"
             android:textSize="25sp" />
 

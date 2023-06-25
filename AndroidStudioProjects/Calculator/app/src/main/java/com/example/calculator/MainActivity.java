@@ -2,6 +2,7 @@ package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -25,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView inputDisplay, outputDisplay;
     private DecimalFormat decimalFormat;
     private MaterialButton button0,button1,button2,button3,button4,button5,button6,button7,button8,button9,
-            buttonAdd,buttonSubstract,buttonEqual,buttonDivid,buttonMultiplay,buttonDote,buttonPersent,buttonClear, buttonOff;
+            buttonAdd,buttonSubstract,buttonEqual,buttonDivid,buttonMultiplay,buttonDote,buttonPersent,buttonClear, buttonOff,buttonGst;
 
 
 
@@ -60,6 +61,18 @@ public class MainActivity extends AppCompatActivity {
         buttonClear = findViewById(R.id.btnclear);
         buttonPersent = findViewById(R.id.btnpercent);
         buttonDivid = findViewById(R.id.btndivision);
+
+        buttonGst = findViewById(R.id.btnGst);
+
+        buttonGst.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, GstActivity.class);
+                startActivity(intent);
+                finish();
+
+            }
+        });
 
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -219,6 +232,15 @@ public class MainActivity extends AppCompatActivity {
                 outputDisplay.setText(decimalFormat.format(firstValue));
                 firstValue = Double.NaN;
                 currentSymbol = '0';
+            }
+        });
+
+        buttonGst.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, GstActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 
