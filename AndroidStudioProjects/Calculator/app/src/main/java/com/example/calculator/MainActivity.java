@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.button.MaterialButton;
 
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView inputDisplay, outputDisplay;
     private DecimalFormat decimalFormat;
     private MaterialButton button0,button1,button2,button3,button4,button5,button6,button7,button8,button9,
-            buttonAdd,buttonSubstract,buttonEqual,buttonDivid,buttonMultiplay,buttonDote,buttonPersent,buttonClear, buttonOff,buttonGst;
+            buttonAdd,buttonSubstract,buttonEqual,buttonDivid,buttonMultiplay,buttonDote,buttonPersent,buttonClear, buttonOff;
 
 
 
@@ -62,17 +63,7 @@ public class MainActivity extends AppCompatActivity {
         buttonPersent = findViewById(R.id.btnpercent);
         buttonDivid = findViewById(R.id.btndivision);
 
-        buttonGst = findViewById(R.id.btnGst);
 
-        buttonGst.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, GstActivity.class);
-                startActivity(intent);
-                finish();
-
-            }
-        });
 
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -235,14 +226,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonGst.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, GstActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
 
     }
 
