@@ -19,8 +19,8 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/yellow"
-            android:text="OFF"
+            android:backgroundTint="@color/green"
+            android:text="@string/off"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
@@ -32,8 +32,8 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/yellow"
-            android:text="C"
+            android:backgroundTint="@color/green"
+            android:text="@string/c"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
@@ -45,8 +45,8 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/yellow"
-            android:text="%"
+            android:backgroundTint="@color/green"
+            android:text="@string/persrntege"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
@@ -58,8 +58,8 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/yellow"
-            android:text="/"
+            android:backgroundTint="@color/green"
+            android:text="@string/divitionIcon"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
@@ -72,10 +72,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="7"
+            android:text="@string/_7"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -87,10 +87,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="8"
+            android:text="@string/_8"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -102,10 +102,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="9"
+            android:text="@string/_9"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -117,10 +117,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="X"
+            android:text="@string/x"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -132,10 +132,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="4"
+            android:text="@string/_4"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -147,10 +147,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="5"
+            android:text="@string/_5"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -162,10 +162,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="6"
+            android:text="@string/_6"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -176,10 +176,11 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
-            android:backgroundTint="@color/gray"            android:text="+"
+            android:backgroundTint="@color/gray"
+            android:text="@string/pluse"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -191,10 +192,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="1"
+            android:text="@string/_1"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -206,10 +207,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="2"
+            android:text="@string/_2"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -221,10 +222,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="3"
+            android:text="@string/_3"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -236,10 +237,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="-"
+            android:text="@string/minus"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -251,10 +252,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="0"
+            android:text="@string/_0"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -266,10 +267,10 @@
             android:layout_columnWeight="1"
             android:layout_margin="3dp"
             android:backgroundTint="@color/gray"
-            android:text="."
+            android:text="@string/dot"
             android:textColor="@color/white"
             android:textSize="25sp"
-            app:strokeColor="@color/yellow"
+            app:strokeColor="@color/green"
             app:strokeWidth="3dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -279,9 +280,9 @@
             android:layout_row="4"
             android:layout_column="2"
             android:layout_columnWeight="1"
-            android:layout_marginLeft="3dp"
-            android:backgroundTint="@color/yellow"
-            android:text="="
+            android:layout_marginStart="3dp"
+            app:strokeColor="@color/green"
+            android:text="@string/equal"
             android:textColor="@color/white"
             android:layout_columnSpan="2"
             android:textSize="25sp" />
