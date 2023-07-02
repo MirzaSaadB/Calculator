@@ -16,7 +16,7 @@
         android:layout_gravity="end"
         android:padding="10dp"
         android:text=""
-        android:textColor="@color/yellow"
+        android:textColor="@color/green"
         android:textSize="30sp">
 
     </TextView>
@@ -28,7 +28,7 @@
         android:layout_gravity="end"
         android:padding="10dp"
         android:text=""
-        android:textColor="@color/yellow"
+        android:textColor="@color/green"
         android:textSize="40sp">
 
     </TextView>
